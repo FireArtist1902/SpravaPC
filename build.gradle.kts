@@ -16,6 +16,8 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-core:0.50.1")
     implementation("org.jetbrains.exposed:exposed-dao:0.50.1")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.50.1")
+    implementation("org.swinglabs:swingx:1.6.1")
+    implementation("com.github.lgooddatepicker:LGoodDatePicker:11.2.1")
 
     implementation("org.xerial:sqlite-jdbc:3.46.0.0")
 
