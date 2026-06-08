@@ -202,7 +202,7 @@ class MainFrame : JFrame(){
                 it.id,
                 it.title,
                 it.description,
-                it.isCompleted,
+                if(!it.isCompleted) LanguageManager.get("incompleted") else LanguageManager.get("completed"),
                 it.startDate?.format(formatter),
                 it.endDate?.format(formatter)
             )

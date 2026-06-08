@@ -8,7 +8,7 @@ object LanguageManager {
             "add" to "Додати",
             "edit" to "Редагувати",
             "delete" to "Видалити",
-            "complete" to "Виконано",
+            "complete" to "Виконання",
             "settings" to "Налаштування",
             "title_required" to "Введіть назву",
             "wrong_dates" to "Дата завершення або початку не правильна",
@@ -29,7 +29,9 @@ object LanguageManager {
             "open" to "Відкрити",
             "exit" to "Вихід",
             "on_back" to "Програма працює у фоні",
-            "remind" to "Нагадування"
+            "remind" to "Нагадування",
+            "completed" to "Виконано",
+            "incompleted" to "Не виконано"
         ),
         "en" to mapOf(
             "add" to "Add",
@@ -56,7 +58,9 @@ object LanguageManager {
             "open" to "Open",
             "exit" to "Exit",
             "on_back" to "The application runs in the background",
-            "remind" to "Remind"
+            "remind" to "Remind",
+            "completed" to "Completed",
+            "incompleted" to "Incompleted"
         )
     )
 
